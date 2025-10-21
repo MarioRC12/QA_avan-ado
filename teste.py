@@ -1,0 +1,5 @@
+nome = input ("Digite seu Nome: ")
+valor = int (input('Qual o valor gasto no site? '))
+desconto = float (valor * 0.25)
+cupom = (f"{nome}É25%")
+print (f"Olá {nome}! em Janeiro você realizou uma compra no valor de R${valor} e ganhou um desconto de {desconto} Reais em sua proxima compra. Use o cupom {cupom}.")
